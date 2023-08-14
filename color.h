@@ -5,6 +5,7 @@
 
 #include <iostream>
 
+// color is just an alias for vec3.
 using color = vec3;
 
 void write_color(std::ostream &out, color pixel_color) {
